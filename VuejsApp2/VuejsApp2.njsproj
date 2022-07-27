@@ -31,29 +31,13 @@
   <ItemGroup>
     <Content Include="public\favicon.ico" />
     <Content Include="public\index.html" />
-    <Content Include="src\components\Game.vue" />
     <Content Include="src\components\Desafio_2.vue">
-      <SubType>Code</SubType>
-    </Content>
-    <Content Include="src\components\Desafio_3.vue">
-      <SubType>Code</SubType>
-    </Content>
-    <Content Include="src\components\Desafio_4.vue">
-      <SubType>Code</SubType>
-    </Content>
-    <Content Include="src\components\Desafio_5.vue">
-      <SubType>Code</SubType>
-    </Content>
-    <Content Include="src\components\Projeto_1.vue">
       <SubType>Code</SubType>
     </Content>
     <Content Include="src\router\index.js">
       <SubType>Code</SubType>
     </Content>
     <Content Include="src\App.vue" />
-    <Content Include="src\components\Desafio_1.vue">
-      <SubType>Code</SubType>
-    </Content>
     <Content Include="src\components\Home.vue" />
     <Content Include="package.json" />
     <Content Include="README.md" />

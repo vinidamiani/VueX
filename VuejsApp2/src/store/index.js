@@ -5,13 +5,21 @@ const store = createStore({
         title: "Store do VueX",
         notas:[]
     },
-    getters: {},
+    getters: {
+        totalNotas(state) {
+            return state.notas.length;
+        }
+    },
     mutations: {
         SALVAR_NOTA(state, titulo) {
             state.notas.push(titulo);
         }
     },
-    actions: {}
+    actions: {
+        salvarNota({ commit }, titulo) {
+            commit('SALVAR_NOTA', titulo);
+        }
+    }
 })
 
 export default store

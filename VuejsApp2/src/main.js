@@ -1,22 +1,11 @@
 import { createApp } from 'vue'
-import { createStore } from 'vuex'
 import App from './App.vue'
 import router from './router'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
+import store from './store'
 
-const store = createStore({
-    state() {
-        return {
-            count: 0
-        }
-    },
-    mutations: {
-        increment(state) {
-            state.count++
-        }
-    }
-})
+
 
 createApp(App)
     .use(router)
